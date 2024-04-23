@@ -51,3 +51,4 @@ with(beavers_data,{
 
 normality_test<-shapiro.test(beavers_data$temp)
 normality_test
+#p value is less than .05.so The data is not normally distributed
